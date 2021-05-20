@@ -1,0 +1,18 @@
+﻿<Window x:Class="inimori6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inimori6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="300">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <Button DockPanel.Dock="Top" Background="LavenderBlush" Content="Верхняя кнопка" />
+            <Button DockPanel.Dock="Bottom" Background="LavenderBlush" Content="Нижняя кнопка" />
+            <Button DockPanel.Dock="Left" Background="LightPink" Content="Левая кнопка" />
+            <Button DockPanel.Dock="Right" Background="RosyBrown" Content="Правая кнопка" />
+            <Button Background="LightCoral" Content="Центр" />
+        </DockPanel>
+    </Grid>
+</Window>
